@@ -1,0 +1,273 @@
+@media (max-width: 340px) {
+
+
+/* menu */
+.veer-menu{
+  display: none;
+}
+.mobile-menu{
+  display: block;
+  background: rgba(0, 0, 0, .9);
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  top: -800px;
+  left: 0;
+  z-index: 9;
+}
+.mobile-menu ul{
+  margin-top: 10px;
+}
+.mobile-menu ul li a{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: cursive;
+  text-transform: uppercase;
+  padding: 17px 15px;
+  display: block;
+  margin: 10px -33px 0;
+  width: 100%;
+}
+.mobile-menu ul li a:hover{
+  background: rgba(249, 20, 24, 30%);
+}
+.mobile-menu-icon{
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+.mobile-menu-icon i.fa-times-circle{
+  background: red;
+  border-radius: 100%;
+  color: black;
+  display: none;
+}
+
+/* header cover */
+
+.cover-title em{
+  font-size: 20px;
+ }
+ .cover-title h1{
+  font-size: 30px;
+ }
+ .about-area{
+  padding: 84px 0;
+ }
+ .about-title em{
+  font-size: 20px;
+}
+.about-title h2{
+  font-size: 25px;
+}
+.about-title .p2{
+  margin-top: 30px;
+}
+.about-title button{
+  width: 120px;
+  height: 32px;
+  margin-bottom: 80px;
+}
+
+.about-img img{
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+}
+
+/* service area */
+
+.service-title h1{
+  font-size: 25px;
+}
+.service-title h1::after{
+  width: 80px;
+  top: 35px;
+  left: 34%;
+}
+.service-title h1::before{
+  width: 80px;
+  top: 43px;
+  left: 44%;
+}
+
+
+/* venobox */
+.venobox-play-icon{
+  top: 20%;
+}
+.venobox-play-icon a{
+  font-size: 30px;
+}
+
+
+/* recen work */
+
+.work-area{
+  padding: 12px 0;
+  text-align: center;
+}
+.work-title h1{
+  font-size: 25px;
+}
+.work-title h1::after{
+  width: 80px;
+  top: 35px;
+  left: 34%;
+}
+.work-title h1::before{
+  width: 80px;
+  top: 43px;
+  left: 44%;
+}
+
+.read-more-btn{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* client Review */
+
+.client-review-title{
+  padding-top: 70px;
+}
+.client-review-title h1{
+  font-size: 25px;
+}
+.client-review-title h1::after{
+  width: 80px;
+  top: 35px;
+  left: 34%;
+}
+.client-review-title h1::before{
+  width: 80px;
+  top: 43px;
+  left: 44%;
+}
+.client-img{
+  padding-top: -40px;
+}
+
+/* team */
+
+.team-area{
+  padding: 58px 0;
+  text-align: center;
+}
+.team-title h1{
+  font-size: 25px;
+}
+.team-title h1::after{
+  width: 80px;
+  top: 35px;
+  left: 34%;
+}
+.team-title h1::before{
+  width: 80px;
+  top: 43px;
+  left: 44%;
+}
+.team-member-detail{
+  margin-bottom: 50px;
+}
+
+/* blog */
+
+.our-blog-area{
+  padding-bottom: 70px;
+}
+.blog-title h1{
+  font-size: 25px;
+}
+.blog-title h1::after{
+  width: 80px;
+  top: 35px;
+  left: 34%;
+}
+.blog-title h1::before{
+  width: 80px;
+  top: 43px;
+  left: 44%;
+}
+
+
+/* About area */
+  .about-img{
+    position: relative;
+    z-index: 1;
+  }
+  .about-img::after{
+    content: '';
+    display: block;
+    width: 288px;
+    height: 90px;
+    border: 10px solid #bddbef;
+    position: absolute;
+    top: -36px;
+    left: -38px;
+    z-index: -1;
+  }
+  .about-img::before{
+    content: '';
+    display: block;
+    width: 110px;
+    height: 90px;
+    border: 10px solid #bddbef;
+    position: absolute;
+    top: 85%;
+    right: 0px;
+  }
+
+
+
+  /* conatact form */
+  .contact-form{
+    width: 250px;
+    height: 388px;
+  }
+  .input-form label{
+    font-size: 15px;
+    padding-top: 70px;
+  }
+  .input-form{
+    position: absolute;
+    left: 5%;
+  }
+  .input-form input{
+    width: 112px;
+    height: 20px;
+    margin: 10px 0;
+    padding: 15px 10px;
+  }
+  .input-form textarea{
+    width: 227px;
+    height: 90px;
+    padding: 4px 10px;
+  }
+  .input-form button{
+    width: 113px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+
+
+  /* footer */
+  .footer-menu{
+    margin-left: 10px;
+  }
+  .footer-social-icon{
+    margin-right: 70px;
+    margin-top: -24px;
+    padding-bottom: 17px;
+  }
+
+
+
+/* END */
+}
+
